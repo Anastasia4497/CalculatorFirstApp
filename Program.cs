@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Math ops");
+            Console.WriteLine("Math ops: \n");
             int a = 255 + 235;
             int b = 1248 * 1248;
             int c = 10 / 5;
@@ -27,6 +27,9 @@
             Console.WriteLine("Результат деления 10 на 7 = " + i);
             Console.WriteLine("Результат деления 10 на 7 по модулю = " + modulus);
             Console.WriteLine("Результат деления 10 на 7 = " + divide);
+            string userInput = Console.ReadLine();
+
+
         }
     }
 }
